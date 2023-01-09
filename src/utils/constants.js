@@ -5,7 +5,6 @@ import OndemandVideoIcon from "@mui/icons-material/OndemandVideo";
 import SportsEsportsIcon from "@mui/icons-material/SportsEsports";
 import LiveTvIcon from "@mui/icons-material/LiveTv";
 import SchoolIcon from "@mui/icons-material/School";
-import FaceRetouchingNaturalIcon from "@mui/icons-material/FaceRetouchingNatural";
 import CheckroomIcon from "@mui/icons-material/Checkroom";
 import GraphicEqIcon from "@mui/icons-material/GraphicEq";
 import TheaterComedyIcon from "@mui/icons-material/TheaterComedy";
@@ -15,30 +14,28 @@ import DeveloperModeIcon from "@mui/icons-material/DeveloperMode";
 export const logo = "https://i.ibb.co/s9Qys2j/logo.png";
 
 export const categories = [
-  { name: "New", icon: <HomeIcon /> },
-  { name: "JS Mastery", icon: <CodeIcon /> },
-  { name: "Coding", icon: <CodeIcon /> },
+  { name: "Nuevos", icon: <HomeIcon /> },
+  { name: "Programacíon Web", icon: <CodeIcon /> },
   { name: "ReactJS", icon: <CodeIcon /> },
-  { name: "NextJS", icon: <CodeIcon /> },
-  { name: "Music", icon: <MusicNoteIcon /> },
-  { name: "Education", icon: <SchoolIcon /> },
-  { name: "Podcast", icon: <GraphicEqIcon /> },
-  { name: "Movie", icon: <OndemandVideoIcon /> },
-  { name: "Gaming", icon: <SportsEsportsIcon /> },
-  { name: "Live", icon: <LiveTvIcon /> },
-  { name: "Sport", icon: <FitnessCenterIcon /> },
-  { name: "Fashion", icon: <CheckroomIcon /> },
-  { name: "Beauty", icon: <FaceRetouchingNaturalIcon /> },
-  { name: "Comedy", icon: <TheaterComedyIcon /> },
-  { name: "Gym", icon: <FitnessCenterIcon /> },
-  { name: "Crypto", icon: <DeveloperModeIcon /> },
+  { name: "TailwindCSS", icon: <CodeIcon /> },
+  { name: "Material UI", icon: <CodeIcon /> },
+  { name: "Música", icon: <MusicNoteIcon /> },
+  { name: "Educación", icon: <SchoolIcon /> },
+  { name: "Radio", icon: <GraphicEqIcon /> },
+  { name: "Peliculas y series", icon: <OndemandVideoIcon /> },
+  { name: "Juegos", icon: <SportsEsportsIcon /> },
+  { name: "En directo", icon: <LiveTvIcon /> },
+  { name: "Deportes", icon: <FitnessCenterIcon /> },
+  { name: "Moda", icon: <CheckroomIcon /> },
+  { name: "Comedia", icon: <TheaterComedyIcon /> },
+  { name: "Finanzas", icon: <DeveloperModeIcon /> },
 ];
 
-export const demoThumbnailUrl = "https://i.ibb.co/G2L2Gwp/API-Course.png";
-export const demoChannelUrl = "/channel/UCmXmlB4-HJytD7wek0Uo97A";
+export const demoThumbnailUrl =
+  "https://images.ecestaticos.com/R-GuFc7AAXPYQ0BZgSnbeEUAht4=/0x0:2121x1414/557x418/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F4d0%2F68f%2Fb04%2F4d068fb04ec4ef3950da1cb9ed696747.jpg";
+export const demoChannelUrl = "/channel/UC49pTy1RdRDX8tthbffeuVw";
 export const demoVideoUrl = "/video/GDa8kZLNhJ4";
-export const demoChannelTitle = "JavaScript Mastery";
-export const demoVideoTitle =
-  "Build and Deploy 5 JavaScript & React API Projects in 10 Hours - Full Course | RapidAPI";
+export const demoChannelTitle = "Jorge Caballero";
+export const demoVideoTitle = "Cargar una búsqueda o volver atrás";
 export const demoProfilePicture =
   "http://dergipark.org.tr/assets/app/images/buddy_sample.png";
