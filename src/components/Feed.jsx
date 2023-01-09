@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from "react";
 import { Box, Stack, Typography } from "@mui/material";
 
-import { fetchAPI } from "../utils/fetchAPI";
+import { fetchFromAPI } from "../utils/fetchFromAPI";
 import { Videos, Sidebar } from "./";
 
 const Feed = () => {
-  const [selectedCategory, setSelectedCategory] = useState("Nuevos");
+  const [selectedCategory, setSelectedCategory] = useState("New");
   const [videos, setVideos] = useState(null);
 
   useEffect(() => {
     setVideos(null);
 
-    fetchAPI(`search?part=snippet&q=${selectedCategory}`).then((data) =>
+    fetchFromAPI(`search?part=snippet&q=${selectedCategory}`).then((data) =>
       setVideos(data.items)
     );
   }, [selectedCategory]);
@@ -22,7 +22,7 @@ const Feed = () => {
         sx={{
           height: { sx: "auto", md: "92vh" },
           borderRight: "1px solid #3d3d3d",
-          px: { sx: 0, md: 1 },
+          px: { sx: 0, md: 2 },
         }}
       >
         <Sidebar

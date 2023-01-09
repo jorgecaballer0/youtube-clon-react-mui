@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Typography, Box } from "@mui/material";
 import { useParams } from "react-router-dom";
 
-import { fetchAPI } from "../utils/fetchAPI";
+import { fetchFromAPI } from "../utils/fetchFromAPI";
 import { Videos } from "./";
 
 const SearchFeed = () => {
@@ -10,7 +10,7 @@ const SearchFeed = () => {
   const { searchTerm } = useParams();
 
   useEffect(() => {
-    fetchAPI(`search?part=snippet&q=${searchTerm}`).then((data) =>
+    fetchFromAPI(`search?part=snippet&q=${searchTerm}`).then((data) =>
       setVideos(data.items)
     );
   }, [searchTerm]);
@@ -24,8 +24,8 @@ const SearchFeed = () => {
         mb={3}
         ml={{ sm: "100px" }}
       >
-        Resultados encontrados para: {" "}
-        <span style={{ color: "#FC1503" }}>{searchTerm}</span> 
+        Resultados encontrados para:{" "}
+        <span style={{ color: "#FC1503" }}>{searchTerm}</span>
       </Typography>
       <Box display="flex">
         <Box sx={{ mr: { sm: "100px" } }} />

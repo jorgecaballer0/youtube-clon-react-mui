@@ -17,12 +17,17 @@ const Navbar = () => (
       display: "flex",
       flexDirection: { xs: "column", md: "row" },
       gap: { xs: 2, md: 0 },
-      zIndex: 1,
     }}
   >
     <Link to="/" style={{ display: "flex", alignItems: "center" }}>
       <img src={logo} alt="logo" height={45} />
-      <Typography variant="subtitle1" sx={{ color: "#fff", p: 1 }}>
+      <Typography
+        variant="subtitle1"
+        sx={{
+          color: "#fff",
+          px: 2,
+        }}
+      >
         YT CLONE
       </Typography>
     </Link>

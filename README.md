@@ -2,14 +2,14 @@
 
 ## Preview 📷
 
-[Imagen](link a la imagen)
 
+- Clon de Youtube utilizando:
 > React Js
-
-> Material UI (MUI)
 
 > API Youtube V3
 
-## Deploy 
+> Material UI
+
+## Deploy en Netlify 
 
 [Link](https://dashing-genie-e2eece.netlify.app/)

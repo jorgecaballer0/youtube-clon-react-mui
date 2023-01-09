@@ -5,7 +5,7 @@ import { Typography, Box, Stack } from "@mui/material";
 import CheckCircleIcon from "@mui/icons-material/CheckCircle";
 
 import { Videos, Loader } from "./";
-import { fetchAPI } from "../utils/fetchAPI";
+import { fetchFromAPI } from "../utils/fetchFromAPI";
 
 const VideoDetail = () => {
   const [videoDetail, setVideoDetail] = useState(null);
@@ -13,11 +13,11 @@ const VideoDetail = () => {
   const { id } = useParams();
 
   useEffect(() => {
-    fetchAPI(`videos?part=snippet,statistics&id=${id}`).then((data) =>
+    fetchFromAPI(`videos?part=snippet,statistics&id=${id}`).then((data) =>
       setVideoDetail(data.items[0])
     );
 
-    fetchAPI(`search?part=snippet&relatedToVideoId=${id}&type=video`).then(
+    fetchFromAPI(`search?part=snippet&relatedToVideoId=${id}&type=video`).then(
       (data) => setVideos(data.items)
     );
   }, [id]);
@@ -62,10 +62,10 @@ const VideoDetail = () => {
               </Link>
               <Stack direction="row" gap="20px" alignItems="center">
                 <Typography variant="body1" sx={{ opacity: 0.7 }}>
-                  {parseInt(viewCount).toLocaleString()} vistas
+                  {parseInt(viewCount).toLocaleString()} VISTAS
                 </Typography>
                 <Typography variant="body1" sx={{ opacity: 0.7 }}>
-                  {parseInt(likeCount).toLocaleString()} likes
+                  {parseInt(likeCount).toLocaleString()} LIKES
                 </Typography>
               </Stack>
             </Stack>

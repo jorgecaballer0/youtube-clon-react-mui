@@ -15,14 +15,14 @@ export const logo = "https://i.ibb.co/s9Qys2j/logo.png";
 
 export const categories = [
   { name: "Nuevos", icon: <HomeIcon /> },
-  { name: "Programacíon Web", icon: <CodeIcon /> },
+  { name: "Tyc Sports", icon: <CodeIcon /> },
+  { name: "Programación Web", icon: <CodeIcon /> },
   { name: "ReactJS", icon: <CodeIcon /> },
   { name: "TailwindCSS", icon: <CodeIcon /> },
-  { name: "Material UI", icon: <CodeIcon /> },
   { name: "Música", icon: <MusicNoteIcon /> },
   { name: "Educación", icon: <SchoolIcon /> },
   { name: "Radio", icon: <GraphicEqIcon /> },
-  { name: "Peliculas y series", icon: <OndemandVideoIcon /> },
+  { name: "Películas y series", icon: <OndemandVideoIcon /> },
   { name: "Juegos", icon: <SportsEsportsIcon /> },
   { name: "En directo", icon: <LiveTvIcon /> },
   { name: "Deportes", icon: <FitnessCenterIcon /> },
@@ -32,10 +32,10 @@ export const categories = [
 ];
 
 export const demoThumbnailUrl =
-  "https://images.ecestaticos.com/R-GuFc7AAXPYQ0BZgSnbeEUAht4=/0x0:2121x1414/557x418/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F4d0%2F68f%2Fb04%2F4d068fb04ec4ef3950da1cb9ed696747.jpg";
+  "https://images.ecestaticos.com/DiJ6Fx5gUleSR6P1IBGPELVncIQ=/0x0:2121x1414/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F4d0%2F68f%2Fb04%2F4d068fb04ec4ef3950da1cb9ed696747.jpg";
 export const demoChannelUrl = "/channel/UC49pTy1RdRDX8tthbffeuVw";
 export const demoVideoUrl = "/video/GDa8kZLNhJ4";
 export const demoChannelTitle = "Jorge Caballero";
-export const demoVideoTitle = "Cargar una búsqueda o volver atrás";
+export const demoVideoTitle = "Clon de youtube con React, API y MUI";
 export const demoProfilePicture =
   "http://dergipark.org.tr/assets/app/images/buddy_sample.png";
