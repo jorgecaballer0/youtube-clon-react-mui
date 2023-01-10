@@ -2,6 +2,7 @@
 
 ## Preview 📷
 
+![Preview](./src/assets/preview.png)
 
 - Clon de Youtube utilizando:
 > React Js
@@ -12,4 +13,4 @@
 
 ## Deploy en Netlify 
 
-[Link](https://dashing-genie-e2eece.netlify.app/)
+[Link al sitio](https://dashing-genie-e2eece.netlify.app/)
